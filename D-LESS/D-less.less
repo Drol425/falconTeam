@@ -1,0 +1,63 @@
+
+@import "Variables.less";
+
+.Claster {
+   //position: absolute;
+   //width: 111px;
+   height: @Clasterheight;
+   //left: 479px;
+   //top: 245px;
+
+   border: 2px solid @ClasterBorderColor;
+   box-sizing: border-box;
+   border-radius: @Clasterheight/2;
+
+   text-align: center;
+   font-size: @ClasterFontSize;
+   font-family: 'ProximaNova-Regular';
+   line-height: @Clasterheight - 2;
+   padding-left: 25px;
+   padding-right: 25px;
+   margin: 0 10px;
+   &.other {
+      border: 0px;
+   }
+}
+.Claster:hover {
+   background-color: @ClasterBackgColor;
+}
+
+.CenterContent {
+   width: 100%;
+
+}
+.CenterBlock {
+   display: flex;
+   width: auto;
+   margin: 0 auto;
+   
+}
+.BtnSearch {
+   height: @Btnheight;
+   width: auto;
+   padding: 0 15px;
+   background-color: @BtnBackgColor;
+   border-radius: @Btnheight/2;
+   Font-family: 'ProximaNova-Regular';
+   Font-size: @BtnFontSize;
+   Line-height: @Btnheight;
+   text-align: center;
+}
+.BtnSearch:hover {
+   background-color: @BtnBackgColor;
+}
+
+.content {
+   //display: block;
+   margin: 0 auto;
+}
+
+
+@media (max-width: 1050px) {
+
+}
